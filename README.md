@@ -9,3 +9,4 @@
 7.Toán tử logical
 8.Mảng
 9.Hàm
+10.Object
