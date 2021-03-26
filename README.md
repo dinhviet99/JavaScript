@@ -11,6 +11,10 @@
 9.Hàm
 10.Object
 
-# 24/4/2021
+# 24/3/2021
 1.Vòng lặp(For/ For in/ For of/ While/ Do While).
 2.Mảng
+
+# 25/3/2021
+1.HTML DOM
+2.
