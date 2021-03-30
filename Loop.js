@@ -52,3 +52,23 @@ var myInfo = {
 for (var value of Object.keys(myInfo)){
     console.log(value);
 }
+
+var rectangles = [
+    {
+        width: 10,
+        height: 5
+    },
+    {
+        width: 10,
+        height: 20
+    },
+    {
+        width: 4,
+        height: 16
+    }
+]
+
+var dientich = rectangles.map(function (x){
+    return x.width * x.height;
+})
+console.log(dientich);

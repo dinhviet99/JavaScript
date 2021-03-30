@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+</head>
+<body>
+    
+    <script>
+        var students = [
+            {
+                name: 'Nguyễn Đình Việt',
+                age: 22,
+                phone: 0825185992,
+                address: 'Huế'
+            },
+            {
+                name: 'Ngọc',
+                age: 18,
+                phone: 0825185992,
+                address: 'Huế'
+            }
+        ]
+        localStorage.setItem('students', JSON.stringify(students));
+
+        var student = JSON.parse(localStorage.getItem('students'));
+        for (var i = 0; i < student.length; i++){
+            console.log(student[i]); 
+        }
+    </script>
+</body>
+</html>
