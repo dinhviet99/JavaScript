@@ -17,3 +17,4 @@ function callBack(value){
     console.log('Value: '+ value);
 }
 dayLaFunction(callBack);
+
