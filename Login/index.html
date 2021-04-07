@@ -15,35 +15,43 @@
   <body>
     <div class="main">
       <form action="" method="POST" class="form" id="form-login">
-        <h3 class="heading">Login</h3>
+        <h3 class="heading">Validate</h3>
 
         <div class="spacer"></div>
 
         <div class="form-group">
           <label for="username" class="form-label">Tên đăng nhập</label>
-          <input
-            id="username"
-            name="username"
-            type="text"
-            placeholder="VD: Nguyễn Việt"
-            class="form-control"
-          />
-          <span id="name-error" class="form-message"></span>
+          <input id="username" name="username" type="text"placeholder="VD: Nguyễn Việt"class="form-control"/>
+          <span id="username-error" class="form-message"></span>
         </div>
 
         <div class="form-group">
           <label for="password" class="form-label">Mật khẩu</label>
-          <input
-            id="password"
-            name="password"
-            type="password"
-            placeholder="Nhập mật khẩu"
-            class="form-control"
-          />
-          <span id="pass-error" class="form-message"></span>
+          <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control"/>
+          <span id="password-error" class="form-message"></span>
         </div>
+  <!-- 
+          <div class="form-group">
+            <label for="repassword" class="form-label">Nhập lại mật khẩu</label>
+            <input id="repassword" name="repassword" type="password" placeholder="Nhập lại mật khẩu" class="form-control"/>
+            <span id="repassword-error" class="form-message"></span>
+          </div>
 
-        <div type="submit" class="form-submit" onclick="login()">Đăng nhập</div>
+          <div class="form-group">
+            <label for="phone" class="form-label">Phone</label>
+            <input id="phone" name="phone" type="text" placeholder="Nhập SDT" class="form-control"/>
+            <span id="phone-error" class="form-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input id="email" name="email" type="text" placeholder="Nhập Email" class="form-control"/>
+            <span id="email-error" class="form-message"></span>
+          </div> -->
+
+        <div type="submit" class="form-submit" onclick="validate()">Đăng nhập</div>
+        <br>
+        <span id="show-error" class="form-message"></span>
       </form>
     </div>
     <script src="form.js"></script>

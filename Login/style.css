@@ -48,6 +48,9 @@ html {
 .form-message {
   text-align: left;
 }
+.form-message  {
+  color: #f33a58
+}
 
 .form-label {
   font-weight: 700;
